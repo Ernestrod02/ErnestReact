@@ -16,7 +16,7 @@ function Cards() {
               path='/Mypets'
             />
             <CardItem
-              src='images/Yellowstone.jpg'
+              src='images/yellowstone.jpg'
               text="Where I've been"
               label='Yellowstone'
               path='/been'
@@ -24,7 +24,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/Miami.jpg'
+              src='images/miami.jpg'
               text="Where I'm from"
               label='Miami'
               path='/from'
