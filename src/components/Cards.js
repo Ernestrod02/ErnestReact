@@ -5,41 +5,41 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out some of my projects!</h1>
+      <h1>Get to know me!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='This one does something'
-              label='Begineer'
-              path='/services'
+              src='images/lily.jpg'
+              text='My Pets'
+              label='Lily'
+              path='/Mypets'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='This one will also do something'
-              label='Medium'
-              path='/services'
+              src='images/Yellowstone.jpg'
+              text="Where I've been"
+              label='Yellowstone'
+              path='/been'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Project 3 at some point?'
-              label='Mystery'
-              path='/services'
+              src='images/Miami.jpg'
+              text="Where I'm from"
+              label='Miami'
+              path='/from'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src='images/sushi.jpeg'
+              text='Favorite Foods'
+              label='Sushi'
+              path='/food'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='images/coding.jpeg'
+              text='What do I do?'
+              label='IT'
+              path='/job'
             />
           </ul>
         </div>
