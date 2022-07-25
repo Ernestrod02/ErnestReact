@@ -5,27 +5,27 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out some of my projects!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              text='This one does something'
+              label='Begineer'
               path='/services'
             />
             <CardItem
               src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              text='This one will also do something'
+              label='Medium'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text='Project 3 at some point?'
               label='Mystery'
               path='/services'
             />
