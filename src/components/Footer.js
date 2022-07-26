@@ -29,12 +29,12 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/Whoami'>Who am I?</Link>
+            <Link to='/whoami'>Who am I?</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/Contact'>Contact</Link>
-            <Link to='/Support'>Support</Link>
+            <Link to='/contact'>Contact</Link>
+            <Link to='/support'>Support</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>

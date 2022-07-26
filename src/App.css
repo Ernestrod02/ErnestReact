@@ -12,7 +12,10 @@
 .been,
 .from,
 .food,
-.job {
+.job,
+.whoami,
+.contact,
+.support {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -79,6 +82,30 @@
   background-image: url('/images/img-8.jpg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.whoami {
+  background-image: url('/images/img-1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.contact {
+  background-image: url('/images/img-1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.support {
+  background-image: url('/images/img-1.jpg');
+  background-position: center;
+  background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
