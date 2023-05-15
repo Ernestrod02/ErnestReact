@@ -9,7 +9,22 @@
       "UnauthRoleName": "amplify-ernestreact-dev-155333-unauthRole",
       "StackName": "amplify-ernestreact-dev-155333",
       "StackId": "arn:aws:cloudformation:us-east-1:428437231746:stack/amplify-ernestreact-dev-155333/d9c3d2c0-0c5b-11ed-a5db-12aa38b05a9b",
-      "AmplifyAppId": "d2htj9d56e8ahi"
+      "AmplifyAppId": "d2htj9d56e8ahi",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-ernestreact-dev-155333-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "ernestreactae9fe564": {}
+      },
+      "function": {
+        "ernestreactae9fe564CustomMessage": {
+          "REDIRECTURL": "http://localhost:3000/",
+          "EMAILSUBJECT": "",
+          "EMAILMESSAGE": "",
+          "deploymentBucketName": "amplify-ernestreact-dev-155333-deployment",
+          "s3Key": "amplify-builds/ernestreactae9fe564CustomMessage-69435a74337a74564c52-build.zip"
+        }
+      }
     }
   }
 }

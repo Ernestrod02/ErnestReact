@@ -20,7 +20,10 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
+    window.scrollTo(0, 0)
   }, []);
+
+
 
   window.addEventListener('resize', showButton);
 
@@ -60,15 +63,15 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to='/feedback'
+                to='/signin'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Feedback
+                Sign In
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Feedback</Button>}
+          {button && <Button buttonStyle='btn--outline'>Sign in</Button>}
         </div>
       </nav>
     </>
